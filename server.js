@@ -9,7 +9,7 @@ const cors = require('cors')
 app.use(cors()) //Esta no es la mejor forma de configurar 'cors'. Se habilitan los endpoints sin discreción
 
 //Aquí utilización de routes
-//Ejemplo: app.use('/users', userRoute)
+//Ejemplo: app.use('/users', usersRoute)
 
 const PORT = 3001
 app.listen(PORT, () => {
